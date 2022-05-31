@@ -1,0 +1,94 @@
+*   {
+  margin:0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Fieldset and legend */
+fieldset {
+  margin: 2em 0;
+  padding: 1em 2em;
+  border: solid 1px #ccc;
+  border-radius: 6px;
+  min-width: 200px;
+}
+
+legend {
+  font-size: 1.25em;
+  padding: 0 .25em;
+  color: #999;
+}
+form label {
+  font-size: 20px;
+}
+/* Labels */
+label{
+  font-size: 14pt;
+  display: block;
+  margin-top: 1em;
+}
+
+select {
+  width: 100%;
+  padding:10px;
+  border-radius:10px;
+}
+
+label:first-of-type {
+  margin-top: 0;
+}
+
+/* Inputs and textarea  */
+input {
+  padding: .5em;
+  border: solid 1px #999;
+}
+
+input[type="email"],  input[type="text"] {
+  width: 15em;
+}
+
+textarea {
+  min-height: 8em;
+  min-width: 100%;
+  padding: .5em;
+  border: solid 1px #999;
+}
+
+/* radio buttons */
+
+
+input[type="radio"] {
+  margin-left: 1.5em;
+  margin-right: 0;
+}
+
+input[type="radio"]:first-of-type {
+  margin-left: 0;
+}
+
+/* Submit Button */
+input[type="submit"] {
+  padding: .5em 1em;
+  border-radius: 6px;
+  background-color: #333;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: .8em;
+}
+
+/* Large screen rules */
+@media screen and (min-width: 430px) {
+   legend {
+      font-size: 2em;
+  }
+  
+   fieldset {
+      width: 40%;
+      min-width: 320px;
+       margin: auto;
+  }
+
+}
+
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  {{ dropzone.load_css() }}
+  {{ dropzone.style('background-color:#f9f9f9;border-color:#d3d3d3;border: width 10px; margin-bottom:5px;margin-top:10px;margin-right:10.5%;margin-left:10.5%; min-height: 200px;') }}
+
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"
+      integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container border border-secondary rounded mt-4" style="text-align:center;font-size:xx-large;background-color:#f9f9f9;border-color:#d3d3d3;border: width 10px;padding:20px;">
+  Please Add Your Files Below</div>
+    
+    <div> {{ dropzone.create(action='upload') }}
+      {{ dropzone.load_js() }}
+    </div>{{ dropzone.config() }}
+    
+  </div>
+  <div class="container border border-secondary rounded mt-4 center" style="padding:10px;background-color:#f9f9f9;border-color:#d3d3d3;border: width 10px;">
+    <form name=submit action="/results">
+      <input class="btn btn-success btn-lg" type="submit" name="run model" value = "get results">
+  </form>
+  </div>
+</body>
+</html>

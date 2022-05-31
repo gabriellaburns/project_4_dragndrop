@@ -1,0 +1,11 @@
+loan_amount_000s,applicant_income_000s,loan_type,applicant_ethnicity,co_applicant_ethnicity,applicant_race_1,co_applicant_race_1,applicant_sex,co_applicant_sex,prediction,probability
+144,154,Conventional,Hispanic or Latino,Not Hispanic or Latino,American Indian or Alaska Native,White,Male,Male,Likely will qualify,99.99999977019%
+300,45,Conventional,Hispanic or Latino,Not Hispanic or Latino,Asian,Asian,Female,Female,Unlikely to qualify.,95.20663772555781%
+263,141,Conventional,Hispanic or Latino,Not Hispanic or Latino,Black or African American,Black or African American,Female,Female,Likely will qualify,99.99979250215002%
+187,76,Conventional,Not Hispanic or Latino,Hispanic or Latino,Native Hawaiian or Other Pacific Islander,Native Hawaiian or Other Pacific Islander,Female,Female,Likely will qualify,99.84159977083016%
+361,107,FHA Insured,Not Hispanic or Latino,Hispanic or Latino,White,White,Male,Male,Likely will qualify,98.11171568528643%
+625,322,VA-guaranteed,Not Hispanic or Latino,Hispanic or Latino,Asian,Asian,Male,Male,Likely will qualify,99.99999999957534%
+347,50,VA-guaranteed,Not Hispanic or Latino,No co-applicant,Black or African American,No co-applicant,Male,No co-applicant,Unlikely to qualify.,98.73125270370336%
+451,123,FSA/RHS (Farm Service Agency or Rural Housing Service),Not Hispanic or Latino,No co-applicant,Native Hawaiian or Other Pacific Islander,No co-applicant,Female,No co-applicant,Likely will qualify,94.15649362272238%
+377,157,Conventional,Not Hispanic or Latino,No co-applicant,White,No co-applicant,Male,No co-applicant,Likely will qualify,99.99839422412258%
+377,100,Conventional,Hispanic or Latino,No co-applicant,Black or African American,No co-applicant,Male,No co-applicant,Likely will qualify,87.93692975379827%
