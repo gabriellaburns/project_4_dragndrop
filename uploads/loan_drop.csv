@@ -1,0 +1,11 @@
+﻿loan_amount_000s,applicant_income_000s,loan_type,applicant_ethnicity,co_applicant_ethnicity,applicant_race_1,co_applicant_race_1,applicant_sex,co_applicant_sex
+144,154,Conventional,Hispanic or Latino,Not Hispanic or Latino,American Indian or Alaska Native,White,Male,Male
+300,45,Conventional,Hispanic or Latino,Not Hispanic or Latino,Asian,Asian,Female,Female
+263,141,Conventional,Hispanic or Latino,Not Hispanic or Latino,Black or African American,Black or African American,Female,Female
+187,76,Conventional,Not Hispanic or Latino,Hispanic or Latino,Native Hawaiian or Other Pacific Islander,Native Hawaiian or Other Pacific Islander,Female,Female
+361,107,FHA Insured,Not Hispanic or Latino,Hispanic or Latino,White,White,Male,Male
+625,322,VA-guaranteed,Not Hispanic or Latino,Hispanic or Latino,Asian,Asian,Male,Male
+347,50,VA-guaranteed,Not Hispanic or Latino,No co-applicant,Black or African American,No co-applicant,Male,No co-applicant
+451,123,FSA/RHS (Farm Service Agency or Rural Housing Service),Not Hispanic or Latino,No co-applicant,Native Hawaiian or Other Pacific Islander,No co-applicant,Female,No co-applicant
+377,157,Conventional,Not Hispanic or Latino,No co-applicant,White,No co-applicant,Male,No co-applicant
+377,100,Conventional,Hispanic or Latino,No co-applicant,Black or African American,No co-applicant,Male,No co-applicant
