@@ -10,7 +10,7 @@ import pandas as pd
   
 app = Flask(__name__)
   
-list_of_files = glob.glob('%USERPROFILE%\Downloads') 
+list_of_files = glob.glob('/Users/gabriellaburns/Desktop/project_4/uploads/*') 
 latest_file = max(list_of_files, key=os.path.getctime)
 
 

@@ -40,7 +40,7 @@ def upload():
 
     if request.method == 'POST':
         f = request.files.get('file')
-        f.save(os.path.join('%USERPROFILE%\Downloads', f.filename))
+        f.save(os.path.join('/Users/gabriellaburns/Desktop/project_4/uploads', f.filename))
 
     ##latest_file = max(list_of_files, key=os.path.getctime)
     
